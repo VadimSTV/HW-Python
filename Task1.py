@@ -5,7 +5,7 @@
 # 123 -> 6 (1 + 2 + 3)
 # 100 -> 1 (1 + 0 + 0) |
 
-number = 100
+number = 10052
 sum = 0
 
 while number > 0:
