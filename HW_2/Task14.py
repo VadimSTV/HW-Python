@@ -4,6 +4,7 @@
 num = int(input("Введите число : "))
 i = 1
 
-while 2**i <= num:
+while 2 ** i <= num:
+    print(i-1, 2**(i-1))
     i += 1
-print(i-1, 2**(i-1))
+
