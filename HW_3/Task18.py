@@ -12,7 +12,7 @@
 V = abs(int(input("Введите количество элементов: ")))
 lst = input("Введите через пробел элементы списка: ").split()
 A_num = list(map(int, lst))
-n = int(input("Какое число ближе к: "))
+n = int(input("Узнать какое число ближе к: "))
 min = abs(n - A_num[0])
 index = 0
 for i in range(1, V):
