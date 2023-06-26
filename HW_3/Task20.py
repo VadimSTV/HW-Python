@@ -23,8 +23,7 @@
 # ноутбук
     # 12
 
-points_en = {
-    1:'AEIOULNSTR',
+points_en = {1:'AEIOULNSTR',
     2:'DG',
     3:'BCMP',
     4:'FHVWY',

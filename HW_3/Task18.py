@@ -7,7 +7,7 @@
     # 5
     # 1 2 3 4 5
     # 6
-    # -> 5
+    #-> 5
 
 V = abs(int(input("Введите количество элементов: ")))
 lst = input("Введите через пробел элементы списка: ").split()
@@ -20,4 +20,4 @@ for i in range(1, V):
     if count < min:
         min = count
         index = i
-print("Число",A_num[index],"ближе к",index)
+print("Это число ",A_num[index],"ближе к",index)
